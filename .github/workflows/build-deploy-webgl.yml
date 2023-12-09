@@ -199,6 +199,10 @@ jobs:
           # buildName: Roguelike
           buildMethod: UnityBuilderAction.BuildAction.BuildWebGL
 
+      - name : LS
+        run : |
+          dir
+
       # to show artifact of builf in Github action uncomment these lines
       - name: Upload artifact to GH
         uses: actions/upload-artifact@v3

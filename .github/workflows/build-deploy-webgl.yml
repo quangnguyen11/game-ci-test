@@ -154,7 +154,7 @@ jobs:
 
   BuildWebGL:
     name: Build WebGL
-    runs-on: macos-latest
+    runs-on: windows-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -202,9 +202,11 @@ jobs:
 
       - name : LS
         run : |
-          ls -al
-          cd Build/WebGL
-          ls -al
+          ls
+          cd ..
+          ls
+          cd ..
+          ls
 
       # to show artifact of builf in Github action uncomment these lines
       - name: Upload artifact to GH

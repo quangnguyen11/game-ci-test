@@ -203,9 +203,7 @@ jobs:
       - name : LS
         run : |
           dir
-          cd Build
-          dir
-          cd WebGL
+          cd Build/WebGL
           dir
 
       # to show artifact of builf in Github action uncomment these lines

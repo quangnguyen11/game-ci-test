@@ -205,6 +205,8 @@ jobs:
           dir
           cd Build
           dir
+          cd WebGL
+          dir
 
       # to show artifact of builf in Github action uncomment these lines
       - name: Upload artifact to GH

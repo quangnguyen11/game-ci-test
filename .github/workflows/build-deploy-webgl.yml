@@ -204,7 +204,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: WebGL
-          path: Build
+          path: Build/WebGL
 
     # - name: Push Build to branch build/webgl
     #   run: |

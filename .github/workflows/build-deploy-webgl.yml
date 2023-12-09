@@ -195,6 +195,7 @@ jobs:
         with:
           customImage: 'unityci/editor:windows-2022.3.13f1-universal-windows-platform-3'
           targetPlatform: WebGL
+          buildsPath: Build
           # buildsPath: Client
           # buildName: Roguelike
           buildMethod: UnityBuilderAction.BuildAction.BuildWebGL

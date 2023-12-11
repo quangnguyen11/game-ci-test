@@ -1,0 +1,14 @@
+name: Release
+
+on: 
+  release:
+    types: [published]
+
+jobs:
+  buildCode:
+    name: Build Code
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        run: |
+          echo "checkout code and build"
